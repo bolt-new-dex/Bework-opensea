@@ -1,0 +1,43 @@
+{
+  "name": "FROSTWING \u2014 BEWORK Gems",
+  "description": "BEWORK Gems \u2014 4,000 ornate Cube Robots on Robinhood Chain. One gem eye each.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0010-0-65e71853-5e3a-4f8a-93f7-cef32dfa5b1b.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "FROSTWING"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Sapphire"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Ice Wings"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Snowflake"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Navy"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Robinhood Chain"
+    }
+  ]
+}

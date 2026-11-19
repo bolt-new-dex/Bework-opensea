@@ -1,0 +1,43 @@
+{
+  "name": "THE EMBER KING \u2014 BEWORK Gems",
+  "description": "BEWORK Gems \u2014 4,000 ornate Cube Robots on Robinhood Chain. One gem eye each.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0008-0-e2a13c50-b804-46e5-a0d6-58c44c726303.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "THE EMBER KING"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Onyx"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Crown"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Fleur Royal"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Burgundy"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Robinhood Chain"
+    }
+  ]
+}

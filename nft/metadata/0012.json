@@ -1,0 +1,43 @@
+{
+  "name": "PLATINUM SOVEREIGN \u2014 BEWORK Gems",
+  "description": "BEWORK Gems \u2014 4,000 ornate Cube Robots on Robinhood Chain. One gem eye each.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0012-0-7482c28e-bce1-4d30-813b-3f29f921087c.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "PLATINUM SOVEREIGN"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Diamond"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Platinum Wings"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Platinum"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Classic Silver"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Grey Dark"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Robinhood Chain"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "THE ROSE WRENCH \u2014 BEWORK Gems",
+  "description": "BEWORK Gems \u2014 4,000 ornate Cube Robots on Robinhood Chain. One gem eye each.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0011-0-157e4bee-c260-4a5c-9831-cafc11bd4c45.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "THE ROSE WRENCH"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Spinel"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Wrench & Driver"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Rose Gold"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Gear Steampunk"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Robinhood Chain"
+    }
+  ]
+}

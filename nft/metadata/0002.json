@@ -1,0 +1,39 @@
+{
+  "name": "STEAMFORGE \u2014 BEWORK Gems",
+  "description": "BEWORK Premium \u2014 Cube Robot collection. 4,000 unique ornate cube robots with gem eyes.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0002-0-1d75c756-0557-4da1-af85-ffdf2948de91.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "STEAMFORGE"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Topaz"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Pipes"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Classic Baroque"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Bottle Green"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    }
+  ]
+}

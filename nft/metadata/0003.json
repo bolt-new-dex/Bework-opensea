@@ -1,0 +1,39 @@
+{
+  "name": "VERDANT WING \u2014 BEWORK Gems",
+  "description": "BEWORK Premium \u2014 Cube Robot collection. 4,000 unique ornate cube robots with gem eyes.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0003-0-4a5320c1-e170-4f32-931d-1edbec75d0d0.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "VERDANT WING"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Leaf Wings"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Leaf & Vine"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Emerald Dark"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    }
+  ]
+}

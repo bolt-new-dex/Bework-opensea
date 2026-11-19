@@ -1,0 +1,43 @@
+{
+  "name": "ECHOHERALD \u2014 BEWORK Gems",
+  "description": "BEWORK Gems \u2014 4,000 ornate Cube Robots on Robinhood Chain. One gem eye each.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0005-0-75307413-7663-4956-be59-15521d1142d0.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "ECHOHERALD"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Aquamarine"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Speaker"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Classic Baroque"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Teal Dark"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Robinhood Chain"
+    }
+  ]
+}

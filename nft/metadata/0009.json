@@ -1,0 +1,43 @@
+{
+  "name": "GEARHEART \u2014 BEWORK Gems",
+  "description": "BEWORK Gems \u2014 4,000 ornate Cube Robots on Robinhood Chain. One gem eye each.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0009-0-a9d4a329-4909-4253-bcd2-fa2ebcd30942.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "GEARHEART"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Gears"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Classic Baroque"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Robinhood Chain"
+    }
+  ]
+}

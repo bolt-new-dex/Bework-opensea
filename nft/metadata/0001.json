@@ -1,0 +1,39 @@
+{
+  "name": "SIGNALKEEPER \u2014 BEWORK Gems",
+  "description": "BEWORK Premium \u2014 Cube Robot collection. 4,000 unique ornate cube robots with gem eyes.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0001-0-50150c14-4f2a-4b5e-ae3c-5faf755c5735.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "SIGNALKEEPER"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Citrine"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Antenna"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Classic Baroque"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    }
+  ]
+}

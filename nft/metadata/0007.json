@@ -1,0 +1,43 @@
+{
+  "name": "MOONWARDEN \u2014 BEWORK Gems",
+  "description": "BEWORK Gems \u2014 4,000 ornate Cube Robots on Robinhood Chain. One gem eye each.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0007-0-cea22067-63f3-48d3-9499-09eaebdac160.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "MOONWARDEN"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Amethyst"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Moon Wings"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Moon & Star"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Purple Dark"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Robinhood Chain"
+    }
+  ]
+}

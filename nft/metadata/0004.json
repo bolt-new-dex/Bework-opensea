@@ -1,0 +1,39 @@
+{
+  "name": "CRYSTALBORN \u2014 BEWORK Gems",
+  "description": "BEWORK Premium \u2014 Cube Robot collection. 4,000 unique ornate cube robots with gem eyes.",
+  "image": "https://bolt-new-dex.github.io/Bework-opensea/nft/images/media-generation-bework-premium-0004-0-b6cf70a5-87a2-4c3d-9641-c7776d73f449.webp",
+  "attributes": [
+    {
+      "trait_type": "Callsign",
+      "value": "CRYSTALBORN"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Gem Eye",
+      "value": "Tanzanite"
+    },
+    {
+      "trait_type": "Head Decoration",
+      "value": "Crystal Growth"
+    },
+    {
+      "trait_type": "Metal",
+      "value": "Blackened Gold"
+    },
+    {
+      "trait_type": "Ornament",
+      "value": "Classic Baroque Dark"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Indigo"
+    },
+    {
+      "trait_type": "Core",
+      "value": "Cube Robot"
+    }
+  ]
+}
