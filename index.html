@@ -194,6 +194,23 @@
     letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);
   }
 
+  /* ---------- vault list ---------- */
+  .vault-sec{border-top:1px solid var(--line-soft)}
+  .vault-steps{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);margin-bottom:34px}
+  .vstep{padding:26px 24px 28px;border-left:1px solid var(--line);background:var(--panel)}
+  .vstep:first-child{border-left:none}
+  .vstep .num{font-family:"JetBrains Mono",monospace;font-size:13px;font-weight:600;letter-spacing:.24em;color:var(--gold);display:block;margin-bottom:16px}
+  .vstep h3{font-size:20px;font-weight:900;text-transform:uppercase;letter-spacing:.04em;line-height:1.1;margin-bottom:10px}
+  .vstep p{color:var(--ink-soft);font-size:15px;line-height:1.6}
+  .vault-cta{
+    display:inline-flex;align-items:center;justify-content:center;
+    background:var(--gold);color:#0a0a0b;text-decoration:none;
+    font-family:"JetBrains Mono",monospace;font-size:12.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+    padding:16px 26px;min-height:52px;border:1px solid var(--gold);transition:background .2s,color .2s;
+  }
+  .vault-cta:hover{background:transparent;color:var(--gold)}
+  .vault-fine{margin-top:18px;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);line-height:1.7;max-width:56em}
+
   /* ---------- feature break ---------- */
   .feature{padding:0}
   .feature-fig{position:relative;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -312,6 +329,10 @@
     .filters button:nth-child(-n+3){border-top:none}
     .filters button:nth-child(4){border-left:none}
     .trow{grid-template-columns:1fr;gap:8px;padding:22px 0}
+    .vault-steps{grid-template-columns:1fr}
+    .vstep{border-left:none;border-top:1px solid var(--line);padding:22px 18px 24px}
+    .vstep:first-child{border-top:none}
+    .vault-cta{width:100%}
     .pbar{height:20px}
     .feature-fig img{height:52vh}
     .feature-cap{padding:16px}
@@ -385,6 +406,40 @@
       </div>
 
       <div class="grid" id="grid"><!-- cards injected by script --></div>
+    </div>
+  </section>
+
+  <!-- VAULT LIST -->
+  <section id="vault" class="vault-sec">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="sec-tag">Free Entry — Kept Small</p>
+        <h2>The Vault List</h2>
+        <p>100 of the 4,000 robots will be claimed free — 2.5% of the vault. The other 3,900 are earned the paid way.</p>
+      </div>
+
+      <div class="vault-steps reveal">
+        <div class="vstep">
+          <span class="num">01</span>
+          <h3>Follow</h3>
+          <p>Follow @BeworkGem on X.</p>
+        </div>
+        <div class="vstep">
+          <span class="num">02</span>
+          <h3>Quote</h3>
+          <p>Quote the pinned post with your ETH wallet address.</p>
+        </div>
+        <div class="vstep">
+          <span class="num">03</span>
+          <h3>Wait for the Seal</h3>
+          <p>100 wallets are picked; 25 of them go to reposters who tag two friends.</p>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <a class="vault-cta" href="https://x.com/BeworkGem" target="_blank" rel="noopener">Enter via the pinned post</a>
+        <p class="vault-fine">One wallet per person. Vault List spots are free-mint spots for the 100 — not a discount on the 3,900.</p>
+      </div>
     </div>
   </section>
 
