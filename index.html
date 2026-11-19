@@ -194,14 +194,40 @@
     letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);
   }
 
-  /* ---------- vault list ---------- */
+  /* ---------- whitelist ---------- */
   .vault-sec{border-top:1px solid var(--line-soft)}
-  .vault-steps{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);margin-bottom:34px}
-  .vstep{padding:26px 24px 28px;border-left:1px solid var(--line);background:var(--panel)}
+  .vault-block{margin-bottom:48px}
+  .vault-block:last-of-type{margin-bottom:40px}
+  .vault-block-head{
+    display:flex;align-items:center;gap:14px;margin-bottom:20px;
+    font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:600;
+    letter-spacing:.3em;text-transform:uppercase;color:var(--gold);
+  }
+  .vault-block-head::after{content:"";flex:1;height:1px;background:var(--line)}
+  .vault-block-head i{width:7px;height:7px;background:var(--gold);display:block;flex:none}
+  .vault-steps{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line)}
+  .vstep{padding:26px 22px 28px;border-left:1px solid var(--line);background:var(--panel)}
   .vstep:first-child{border-left:none}
   .vstep .num{font-family:"JetBrains Mono",monospace;font-size:13px;font-weight:600;letter-spacing:.24em;color:var(--gold);display:block;margin-bottom:16px}
   .vstep h3{font-size:20px;font-weight:900;text-transform:uppercase;letter-spacing:.04em;line-height:1.1;margin-bottom:10px}
   .vstep p{color:var(--ink-soft);font-size:15px;line-height:1.6}
+  .phases{border:1px solid var(--line);background:var(--panel)}
+  .phase-row{
+    display:grid;grid-template-columns:340px 1fr;gap:8px 36px;
+    padding:26px 24px 28px;border-top:1px solid var(--line);align-items:start;
+  }
+  .phase-row:first-child{border-top:none}
+  .phase-row.is-gtd{background:rgba(216,180,90,.05)}
+  .phase-label .pnum{
+    font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:600;
+    letter-spacing:.26em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:10px;
+  }
+  .phase-label h3{font-size:19px;font-weight:900;text-transform:uppercase;letter-spacing:.03em;line-height:1.15}
+  .phase-label h3 span{display:block;font-size:13px;font-weight:800;letter-spacing:.22em;color:var(--ink-soft);margin-top:7px}
+  .phase-row.is-gtd .phase-label h3 span{color:var(--gold)}
+  .phase-row p{color:var(--ink-soft);font-size:15.5px;line-height:1.65;max-width:52em;padding-top:2px}
+  .phase-row p b{color:var(--ink);font-weight:600}
+  .phase-row.is-gtd p b{color:var(--gold)}
   .vault-cta{
     display:inline-flex;align-items:center;justify-content:center;
     background:var(--gold);color:#0a0a0b;text-decoration:none;
@@ -308,6 +334,10 @@
   @media (max-width:1020px){
     .grid{grid-template-columns:repeat(2,1fr)}
     .trow{grid-template-columns:200px 1fr}
+    .vault-steps{grid-template-columns:repeat(2,1fr)}
+    .vstep:nth-child(3){border-left:none;border-top:1px solid var(--line)}
+    .vstep:nth-child(4){border-top:1px solid var(--line)}
+    .phase-row{grid-template-columns:260px 1fr}
   }
   @media (max-width:700px){
     .wrap{padding:0 16px}
@@ -332,6 +362,8 @@
     .vault-steps{grid-template-columns:1fr}
     .vstep{border-left:none;border-top:1px solid var(--line);padding:22px 18px 24px}
     .vstep:first-child{border-top:none}
+    .vstep:nth-child(3){border-left:none}
+    .phase-row{grid-template-columns:1fr;gap:6px;padding:22px 18px 24px}
     .vault-cta{width:100%}
     .pbar{height:20px}
     .feature-fig img{height:52vh}
@@ -409,36 +441,68 @@
     </div>
   </section>
 
-  <!-- VAULT LIST -->
+  <!-- WHITELIST -->
   <section id="vault" class="vault-sec">
     <div class="wrap">
       <div class="sec-head reveal">
-        <p class="sec-tag">Free Entry — Kept Small</p>
-        <h2>The Vault List</h2>
-        <p>100 of the 4,000 robots will be claimed free — 2.5% of the vault. The other 3,900 are earned the paid way.</p>
+        <p class="sec-tag">Whitelist — Robinhood Style</p>
+        <h2>The Whitelist</h2>
+        <p>Like most drops on Robinhood Chain: do the tasks, get on the list, mint in phases on OpenSea.</p>
       </div>
 
-      <div class="vault-steps reveal">
-        <div class="vstep">
-          <span class="num">01</span>
-          <h3>Follow</h3>
-          <p>Follow @BeworkGem on X.</p>
+      <div class="vault-block reveal">
+        <div class="vault-block-head"><i></i>The Tasks</div>
+        <div class="vault-steps">
+          <div class="vstep">
+            <span class="num">01</span>
+            <h3>Follow</h3>
+            <p>Follow @BeworkGem on X.</p>
+          </div>
+          <div class="vstep">
+            <span class="num">02</span>
+            <h3>Like</h3>
+            <p>Like the pinned post.</p>
+          </div>
+          <div class="vstep">
+            <span class="num">03</span>
+            <h3>Repost</h3>
+            <p>Repost the pinned post.</p>
+          </div>
+          <div class="vstep">
+            <span class="num">04</span>
+            <h3>Quote</h3>
+            <p>Quote it with your ETH wallet address. One wallet per X account — the wallet you paste is the wallet that mints.</p>
+          </div>
         </div>
-        <div class="vstep">
-          <span class="num">02</span>
-          <h3>Quote</h3>
-          <p>Quote the pinned post with your ETH wallet address.</p>
-        </div>
-        <div class="vstep">
-          <span class="num">03</span>
-          <h3>Wait for the Seal</h3>
-          <p>100 wallets are picked; 25 of them go to reposters who tag two friends.</p>
+      </div>
+
+      <div class="vault-block reveal">
+        <div class="vault-block-head"><i></i>The Phases</div>
+        <div class="phases">
+          <div class="phase-row is-gtd">
+            <div class="phase-label">
+              <h3>Phase 1 — GTD · Guaranteed</h3>
+            </div>
+            <p><b>100 wallets.</b> A reserved spot AND a free mint — the only free 100 of the 4,000 (2.5%). Filled by the earliest task-completers, collab partners and giveaway winners.</p>
+          </div>
+          <div class="phase-row">
+            <div class="phase-label">
+              <h3>Phase 2 — FCFS Whitelist</h3>
+            </div>
+            <p>Every wallet that finished the tasks but missed GTD. Paid mint, first come first served, before the public.</p>
+          </div>
+          <div class="phase-row">
+            <div class="phase-label">
+              <h3>Phase 3 — Public</h3>
+            </div>
+            <p>Whatever supply remains, open to everyone. Paid.</p>
+          </div>
         </div>
       </div>
 
       <div class="reveal">
         <a class="vault-cta" href="https://x.com/BeworkGem" target="_blank" rel="noopener">Enter via the pinned post</a>
-        <p class="vault-fine">One wallet per person. Vault List spots are free-mint spots for the 100 — not a discount on the 3,900.</p>
+        <p class="vault-fine">A whitelist spot is access to mint in your phase — GTD spots are the only free mints. Mint runs on OpenSea when the drop opens.</p>
       </div>
     </div>
   </section>
